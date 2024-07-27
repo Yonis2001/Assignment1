@@ -1,0 +1,85 @@
+* {
+    background-color: #FF5A5F;
+    color: #F5F5F5;
+    font-family: source-sans-pro, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    * {
+        background-color: teal;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    * {
+        background-color: #3C3C3C;
+    }
+}
+
+*,
+::before,
+::after {
+    padding: 4px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo,
+.lion {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3C3C3C;
+    border-radius: 48%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: 1fr 450px 1fr;
+    margin-left: 10px;
+}
+
+.nav-link {
+    position: relative;
+    color: #F5F5F5;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px dotted #3C3C3C;
+}
+
+.bookshelf {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 2px solid #3C3C3C;
+    border-radius: 10%;
+}
+
+.aside {
+
+    margin-top: 50px;
+    border: 1px solid #3C3C3C;
+}
+
+.lion {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    padding: 50px;
+    font-size: 70px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
